@@ -1,0 +1,15 @@
+Historical ball-by-ball data source: Cricsheet
+https://cricsheet.org/downloads/
+
+Downloaded 2026-10-19:
+- Men's Test JSON: https://cricsheet.org/downloads/tests_male_json.zip
+- Men's ODI JSON: https://cricsheet.org/downloads/odis_male_json.zip
+- Men's T20I JSON: https://cricsheet.org/downloads/it20s_male_json.zip
+
+Cricsheet data is licensed under the Open Data Commons Attribution License
+(ODC-By 1.0): https://opendatacommons.org/licenses/by/1.0/
+
+The JSON source records were transformed into relational SQLite match,
+batting, bowling, and fielding tables. Player roles/styles and venue country
+or seating capacity are not supplied consistently in these source archives
+and were not invented during import.
